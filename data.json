@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Água",
+        "imagem": "img/agua.webp",
+        "codigo": 0,
+        "preco": 5.0
+    },
+    {
+        "nome": "Suco",
+        "imagem": "img/suco.webp",
+        "codigo": 1,
+        "preco": 8.0
+    },
+    {
+        "nome": "Refrigerante",
+        "imagem": "img/refrigerante.webp",
+        "codigo": 2,
+        "preco": 5.0
+    },
+    {
+        "nome": "Energético",
+        "imagem": "img/energetico.webp",
+        "codigo": 3,
+        "preco": 10.0
+    },
+    {
+        "nome": "Óleo",
+        "imagem": "img/oleo.webp",
+        "codigo": 4,
+        "preco": 10.0
+    },
+    {
+        "nome": "Arroz",
+        "imagem": "img/arroz.webp",
+        "codigo": 5,
+        "preco": 6.5
+    },
+    {
+        "nome": "Feijão",
+        "imagem": "img/feijao.jpg",
+        "codigo": 6,
+        "preco": 10.0
+    },
+    {
+        "nome": "Macarrão",
+        "imagem": "img/macarrao.webp",
+        "codigo": 7,
+        "preco": 6.0
+    },
+    {
+        "nome": "Detergente",
+        "imagem": "img/detergente.jpg",
+        "codigo": 8,
+        "preco": 2.5
+    },
+    {
+        "nome": "Sabão em Pó",
+        "imagem": "img/sabao.webp",
+        "codigo": 9,
+        "preco": 12.0
+    }
+]

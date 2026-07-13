@@ -6,12 +6,19 @@
     <title>Consultar Produtos</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <main>
         <h1>Simulação de Código de Barras</h1>
         <input type="number" name="cod" id="cod">
         <button id="button">Consultar Código</button>
+        <div id="conteiner" class="hidden">
+            <img src="" alt="" id="imagem"><span class="fechar">&times;</span>
+            <h2 id="nome"></h2>
+            <h3 id="preco"></h3>
+            <p id="codigo"></p>
+        </div>
     </main>
     <footer>Projeto desenvolvido por <strong>Daniel Ferreira</strong></footer>
 </body>
