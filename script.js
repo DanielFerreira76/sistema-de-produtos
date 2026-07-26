@@ -7,6 +7,7 @@ function consultar() {
             const imagem = document.querySelector('#imagem')
             const codigo = document.querySelector('#codigo')
             const preco = document.querySelector('#preco')
+            const categoria = document.querySelector('#categoria')
             const fechar = document.querySelector('.fechar')
             let conteiner = document.querySelector('#conteiner')
             let produto = produtos.find(produto => produto.codigo === cod)
@@ -16,6 +17,7 @@ function consultar() {
                 imagem.alt = produto.nome
                 codigo.textContent = `Código: ${produto.codigo}`
                 preco.textContent = produto.preco.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+                categoria.textContent = produto.categoria
                 conteiner.classList.remove("hidden")
                 fechar.onclick = () => {
                     conteiner.classList.add("hidden")

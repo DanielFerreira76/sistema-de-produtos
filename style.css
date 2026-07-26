@@ -6,11 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 :root {
-    --ama1: #FFCC00;
-    --ama2: #a07b00;
-    --ver1: #F5251A;
-    --ver2: #770b05;
-    --fundo: #fff1ba;
+    --azul1: #00b7ff;
+    --azul2: #00658d;
+    --ver1: #0038a1;
+    --ver2: #00215f;
+    --fundo: #baefff;
 }
 body {
     background-color: var(--fundo);
@@ -25,15 +25,15 @@ main {
     margin-bottom: 300px;
     border-radius: 50px;
     padding: 30px 150px;
-    border: 5px solid var(--ama2);
+    border: 5px solid var(--azul2);
 }
 h1 {
     color: white;
     margin: auto;
     font-size: 70px;
     font-weight: 900;
-    border: var(--ver2) solid 5px;
-    background-color: var(--ama1);
+    border: var(--azul2) solid 5px;
+    background-color: var(--azul1);
     min-width: 800;
     max-width: 1300px;
     padding: 60px;
@@ -47,18 +47,18 @@ h1 {
     width: 700px;
     font-size: 50px;
     font-weight: 700;
-    background-color: var(--ver1);
+    background-color: var(--azul1);
     border-radius: 60px;
     border: none;
-    color: var(--ver2);
-    border-bottom: 15px solid var(--ver2);
+    color: var(--azul2);
+    border-bottom: 15px solid var(--azul2);
     cursor: pointer;
     transition: 0.2s;
 }
 #button:hover {
-    background-color: var(--ama1);
-    color: var(--ama2);
-    border-bottom: 15px solid var(--ama2);
+    background-color: var(--ver1);
+    color: var(--ver2);
+    border-bottom: 15px solid var(--ver2);
     scale: 1.1;   
 }
 input {
@@ -79,13 +79,13 @@ input::-webkit-outer-spin-button {
 #conteiner {
     border: 3px solid var(--ver2);
     border-radius: 40px;
-    background-color: var(--ama1);
+    background-color: var(--azul1);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 800px;
-    height: 800px;
+    width: 875px;
+    height: 875px;
     padding: 30px;
     overflow-y: auto;
 }
@@ -111,7 +111,7 @@ h2 {
 }
 p {
     font-size: 20px;
-    color: var(--ama2);
+    color: var(--azul2);
     font-weight: 600;
 }
 h3 {
@@ -121,4 +121,12 @@ footer {
     background-color: var(--ver2);
     color: white;
     font-size: 20px;
+}
+a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }

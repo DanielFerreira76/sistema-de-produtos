@@ -1,62 +1,148 @@
 [
     {
-        "nome": "Água",
+        "nome": "Água 500ml",
         "imagem": "img/agua.webp",
-        "codigo": 0,
-        "preco": 5.0
+        "codigo": 1001,
+        "preco": 4.99,
+        "categoria": "Bebidas"
     },
     {
-        "nome": "Suco",
+        "nome": "Suco de Laranja 900ml",
         "imagem": "img/suco.webp",
-        "codigo": 1,
-        "preco": 8.0
+        "codigo": 1002,
+        "preco": 7.99,
+        "categoria": "Bebidas"
     },
     {
-        "nome": "Refrigerante",
+        "nome": "Refrigerante 1L",
         "imagem": "img/refrigerante.webp",
-        "codigo": 2,
-        "preco": 5.0
+        "codigo": 1003,
+        "preco": 4.99,
+        "categoria": "Bebidas"
     },
     {
-        "nome": "Energético",
+        "nome": "Energético 250ml",
         "imagem": "img/energetico.webp",
-        "codigo": 3,
-        "preco": 10.0
+        "codigo": 1004,
+        "preco": 9.99,
+        "categoria": "Bebidas"
     },
     {
-        "nome": "Óleo",
+        "nome": "Café 500g",
+        "imagem": "img/cafe.webp",
+        "codigo": 1005,
+        "preco": 24.99,
+        "categoria": "Mercearia"
+    },
+
+    {
+        "nome": "Óleo de Soja 900ml",
         "imagem": "img/oleo.webp",
-        "codigo": 4,
-        "preco": 10.0
+        "codigo": 1006,
+        "preco": 9.99,
+        "categoria": "Mercearia"
     },
     {
-        "nome": "Arroz",
+        "nome": "Arroz 1kg",
         "imagem": "img/arroz.webp",
-        "codigo": 5,
-        "preco": 6.5
+        "codigo": 1007,
+        "preco": 6.49,
+        "categoria": "Mercearia"
     },
     {
-        "nome": "Feijão",
+        "nome": "Feijão Carioca 1kg",
         "imagem": "img/feijao.jpg",
-        "codigo": 6,
-        "preco": 10.0
+        "codigo": 1008,
+        "preco": 9.99,
+        "categoria": "Mercearia"
     },
     {
-        "nome": "Macarrão",
+        "nome": "Macarrão Espaguete 500g",
         "imagem": "img/macarrao.webp",
-        "codigo": 7,
-        "preco": 6.0
+        "codigo": 1009,
+        "preco": 5.99,
+        "categoria": "Mercearia"
     },
+
     {
-        "nome": "Detergente",
+        "nome": "Detergente 500ml",
         "imagem": "img/detergente.jpg",
-        "codigo": 8,
-        "preco": 2.5
+        "codigo": 1010,
+        "preco": 2.49,
+        "categoria": "Limpeza"
     },
     {
-        "nome": "Sabão em Pó",
+        "nome": "Sabão em Pó 800g",
         "imagem": "img/sabao.webp",
-        "codigo": 9,
-        "preco": 12.0
+        "codigo": 1011,
+        "preco": 11.99,
+        "categoria": "Limpeza"
+    },
+
+    {
+        "nome": "Papel Higiênico 12 Rolos",
+        "imagem": "img/papelhigienico.png",
+        "codigo": 1012,
+        "preco": 34.99,
+        "categoria": "Higiene"
+    },
+    {
+        "nome": "Creme Dental 180g",
+        "imagem": "img/cremedental.webp",
+        "codigo": 1013,
+        "preco": 9.49,
+        "categoria": "Higiene"
+    },
+
+    {
+        "nome": "Banana (kg)",
+        "imagem": "img/banana.webp",
+        "codigo": 1014,
+        "preco": 9.99,
+        "categoria": "Hortifruti"
+    },
+    {
+        "nome": "Maçã Gala",
+        "imagem": "img/maca.webp",
+        "codigo": 1015,
+        "preco": 4.49,
+        "categoria": "Hortifruti"
+    },
+
+    {
+        "nome": "Peito de Frango 1kg",
+        "imagem": "img/peitodefrango.png",
+        "codigo": 1016,
+        "preco": 29.99,
+        "categoria": "Carnes"
+    },
+
+    {
+        "nome": "Leite 1L",
+        "imagem": "img/leite.webp",
+        "codigo": 1017,
+        "preco": 7.99,
+        "categoria": "Laticínios"
+    },
+    {
+        "nome": "Queijo Mussarela (kg)",
+        "imagem": "img/queijomussarela.webp",
+        "codigo": 1018,
+        "preco": 34.99,
+        "categoria": "Laticínios"
+    },
+    {
+        "nome": "Manteiga 500g",
+        "imagem": "img/manteiga.webp",
+        "codigo": 1019,
+        "preco": 24.49,
+        "categoria": "Laticínios"
+    },
+    {
+        "nome": "Leite Condensado 395g",
+        "imagem": "img/leitecondensado.jpg",
+        "codigo": 1020,
+        "preco": 6.49,
+        "categoria": "Laticínios"
     }
 ]
