@@ -4,14 +4,17 @@ Projeto desenvolvido com HTML, CSS, JavaScript e JSON que simula um sistema de c
 
 > **Em desenvolvimento:** futuramente o projeto contará com suporte à leitura de código de barras físico.
 
+### Teste o projeto no link abaixo ⬇️
 https://danielferreira76.github.io/sistema-de-produtos/
+
+Use os códigos de 1001 até 1020.
 
 ## ✨ Funcionalidades
 
 - Consulta de produtos por código
 - Busca dinâmica utilizando JSON
 - Exibição de imagem do produto
-- Exibição de nome, código e preço
+- Exibição de nome, código, preço e categoria
 - Formatação de preço em Real (R$)
 
 ## 🛠 Tecnologias
