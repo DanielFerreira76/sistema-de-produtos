@@ -8,8 +8,8 @@
 :root {
     --azul1: #00b7ff;
     --azul2: #00658d;
-    --ver1: #0038a1;
-    --ver2: #00215f;
+    --azul3: #0038a1;
+    --azul4: #00215f;
     --fundo: #baefff;
 }
 body {
@@ -29,7 +29,7 @@ main {
 }
 h1 {
     color: white;
-    margin: auto;
+    margin: 100px auto;
     font-size: 70px;
     font-weight: 900;
     border: var(--azul2) solid 5px;
@@ -56,9 +56,9 @@ h1 {
     transition: 0.2s;
 }
 #button:hover {
-    background-color: var(--ver1);
-    color: var(--ver2);
-    border-bottom: 15px solid var(--ver2);
+    background-color: var(--azul3);
+    color: var(--azul4);
+    border-bottom: 15px solid var(--azul4);
     scale: 1.1;   
 }
 input {
@@ -77,15 +77,15 @@ input::-webkit-outer-spin-button {
     display: none;
 }
 #conteiner {
-    border: 3px solid var(--ver2);
+    border: 3px solid var(--azul4);
     border-radius: 40px;
     background-color: var(--azul1);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 875px;
-    height: 875px;
+    width: 600px;
+    height: 600px;
     padding: 30px;
     overflow-y: auto;
 }
@@ -100,14 +100,13 @@ span {
 img {
     background-color: white;
     padding: 20px;
-    height: 600px;
-    width: auto;
-    aspect-ratio: 1 / 1;
-    border: 2px solid var(--ver2);
+    height: min-content;
+    width: 350px;
+    border: 2px solid var(--azul4);
     border-radius: 50px;
 }
 h2 {
-    font-size: 70px;
+    font-size: 50px;
 }
 p {
     font-size: 20px;
@@ -116,9 +115,10 @@ p {
 }
 h3 {
     font-size: 40px;
+    color: var(--azul4);
 }
 footer {
-    background-color: var(--ver2);
+    background-color: var(--azul4);
     color: white;
     font-size: 20px;
 }
