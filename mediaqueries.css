@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    header {
+        padding: 40px 20px;
+    }
+    header > img {
+        width: 100px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+
+
+    .pesquisa > h2 {
+        font-size: 40px;
+    margin-bottom: 25px;
+    }
+    button, input {
+        max-width: 600px;
+        font-size: 30px;
+        padding: 25px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+    #campoPesquisa {
+        padding: 25px;
+    }
+    #mensagem {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    #conteiner {
+        max-width: 700px;
+        padding: 45px;
+        border-radius: 30px;
+    }
+    #imagem {
+        padding: 20px;
+        width: 300px;
+        border-radius: 30px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    #categoria, #codigo {
+        font-size: 30px;
+    }
+    .fechar {
+        font-size: 60px;
+    }
+    footer {
+        font-size: 30px;
+        padding: 25px;
+    }
+}

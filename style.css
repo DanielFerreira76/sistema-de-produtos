@@ -76,18 +76,16 @@ input {
     font-size: 15px;
 }
 #campoPesquisa {
-    width: 100%;
-    max-width: 300px;
     padding: 15px;
-    margin: 10px;
 }
 #mensagem {
+    font-size: 15px;
     margin-top: 15px;
     color: var(--vermelho);
     font-weight: bold;
 }
 .hidden {
-    display: none !important;
+    display: none;
 }
 #overlay {
     position: fixed;
@@ -116,14 +114,16 @@ input {
     background-color: white;
     padding: 10px;
     width: 150px;
-    height: 150px;
     margin-bottom: 15px;
     border: 2px solid var(--verde);
     border-radius: 10px;
 }
 h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
     color: var(--cinza);
     margin-bottom: 10px;
+    font-size: 30px;
 }
 h3 {
     color: var(--verde);
@@ -133,6 +133,7 @@ h3 {
 #categoria, #codigo {
     color: var(--cinza);
     margin-top: 5px;
+    font-size: 15px;
 }
 .fechar {
     position: absolute;
@@ -147,6 +148,7 @@ h3 {
 }
 
 footer {
+    font-size: 15px;
     background-color: var(--preto);
     color: white;
     text-align: center;
