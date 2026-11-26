@@ -1,4 +1,4 @@
-#  Consulta de Produtos
+# Consulta de Produtos
 
 Projeto pessoal desenvolvido com **HTML5, CSS3, JavaScript e JSON**, que simula um sistema de consulta de produtos. A aplicação permite pesquisar produtos pelo nome ou código e visualizar suas informações em uma janela modal.
 
