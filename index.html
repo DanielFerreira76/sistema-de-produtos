@@ -3,22 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultar Produtos</title>
+    <title>Consulta de Preços</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Simulação de Consulta</h1>
-    <input type="number" name="cod" id="cod">
-    <button id="button">Consultar Código</button>
-    <div id="conteiner" class="hidden">
-        <img src="" alt="" id="imagem"><span class="fechar">&times;</span>
-        <h2 id="nome"></h2>
-        <h3 id="preco"></h3>
-        <p id="categoria"></p>
-        <p id="codigo"></p>
-    </div>
+    <header>
+        <img src="img/logo.png" alt="Logotipo">
+        <h1>Consulta de Preços</h1>
+    </header>
+    <main>
+        <section class="pesquisa">
+            <h2>Encontre seu produto</h2>
+            <div class="botoes">
+                <button id="pesquisarNome">Pesquisar por nome</button>
+                <button id="pesquisarCodigo">Pesquisar por código</button>
+            </div>
+            <div id="areaPesquisa" class="hidden">
+                <input type="text" id="campoPesquisa" placeholder="Digite o nome do produto">
+                <button id="confirmarPesquisa">Pesquisar</button>
+            </div>
+            <p id="mensagem"></p>
+        </section>
+        <div id="overlay" class="hidden"></div>
+        <div id="conteiner" class="hidden">
+            <span class="fechar">&times;</span>
+            <img src="" alt="" id="imagem">
+            <h2 id="nome"></h2>
+            <h3 id="preco"></h3>
+            <p id="categoria"></p>
+            <p id="codigo"></p>
+        </div>
+    </main>
+    <footer>
+        Projeto desenvolvido por <a href="https://github.com/DanielFerreira76" target="_blank">Daniel Ferreira</a>
+    </footer>
 </body>
-<footer>Projeto desenvolvido por <a href="https://github.com/DanielFerreira76" target="_blank">Daniel Ferreira</a></footer>
 </html>
